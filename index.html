@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Haven Apartments</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Urban Haven Apartments</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#rooms">Rooms</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>Our Location</h1>
+      <p>Located in Kiharu, Murang'a near Uhuru Street opposite Magunas Supermarket.</p>
+      <p>We have been the leading house renting company for over twelve years, offering quality, comfortable, and luxurious housing at affordable prices.</p>
+    </section>
+
+    <section id="rooms">
+      <h1>Available Spaces / Rooms</h1>
+      <div class="image-grid">
+        <div class="card">
+          <img src="/houseimages/twobedroom.jpg" alt="twobedroom">
+        <p><strong>Two bedroom</strong>-Larger apartments with two separate bedrooms suitable for small families @ 10,000 per month. </p></div>
+        <div class="card">
+          <img src="/houseimages/3bedroom.jpg" alt="3bedroom">
+          <p><strong>Three bedroom;</strong> - comfy apartments with three bedrooms and a separate living room for large families @ Kshs. 15,000 per month.</p></div>
+        <div class="card">
+          <img src="/houseimages/self_contained_two_bedroom.jpg" alt="selfcontainedtwobedroom">
+          <p><strong>Self contained two bedroom:</strong> apartments with two bedrooms and private amenities, providing ample space and comfort for large families or lager households @ Kshs.20,000 per month</p>
+        </div>
+        <div class="card">
+          <img src="/houseimages/selfcontained3bedroom.jpg" alt="selfcontained3bedroom">
+          <p><strong>Self contained three bedroom</strong> Modern open layout – Ksh 25,000/month.</p>
+        </div>
+        <div class="card">
+          <img src="/houseimages/swimmingpool.jpg" alt="swimmingpool">
+          <p><strong>swimmingpool:</strong> Free for everyone</p>
+        </div>
+        <div class="card">
+          <img src="/houseimages/selfcontainedonebedroom.jpg" alt="selfcontainedonebedroom">
+          <p><strong>1-Bedroom Self-contained:</strong> With kitchen & bathroom – Ksh 15,000/month.</p>
+        </div>
+        <div class="card">
+          <img src="houseimages/elevator.jpg" alt="elevator">
+          <p><strong>Elevator:</strong> For easy access to upper floors</p>
+        </div>
+        <div class="card">
+          <img src="/houseimages/bedsitter.jpg" alt="bedsitter">
+          <p><strong>Bedsitters:</strong> Comfortable with kitchen area and sink – Ksh 5,500/month.</p>
+        </div>
+        <dv class="card">
+          <img src="houseimages/studio.jpg" alt="studio apartments">
+          <p><strong>Studio</strong> Stylish and functional apartments featuring an open layout with a combined living, sleeping and dining area @ Kshs 7,000.</p></dv>
+        <div class="card">
+          <img src="houseimages/equippedgym.jpg" alt="gym">
+          <p><strong>Equiped gym:</strong> (except for those living in single rooms).</p>
+        </div>
+        <div class="card">
+          <img src="houseimages/laundryservices.jpg" alt="laundryservices">
+          <p><strong>Laundry services:</strong> @ Kshs. 150 per basket.</p>
+        </div>
+        <div class="card">
+          <img src="houseimages/singleroom.jpg" alt="singleroom">
+          <p><strong>singleroom:</strong> Cozy and budget friendly suitable for individuals – Ksh 3,500/month.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="amenities">
+      <h1>Available Amenities</h1>
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide">
+            <img src="/houseimages/freewifi.jpg" alt="freewifi">
+            <p>1. Free WiFi (except single rooms)</p>
+          </div>
+          <div class="slide">
+            <img src="/houseimages/parkingarea.jpg" alt="parkingarea">
+            <p>2. Free parking (except single rooms & bedsitters)</p>
+          </div>
+          <div class="slide">
+            <img src="/houseimages/laundryservices.jpg" alt="laundryservices">
+            <p>3. On-site laundry – Ksh 150 per basket</p>
+          </div>
+          <div class="slide">
+            <img src="/houseimages/equippedgym.jpg" alt="equippedgym">
+            <p>4. Free gym (except single rooms & bedsitters)</p>
+          </div>
+          <div class="slide">
+            <img src="/houseimages/swimmingpool.jpg" alt="swimmingpool">
+            <p>5. Swimming pool – Free for all</p>
+          </div>
+          <div class="slide">
+            <img src="/houseimages/elevator.jpg" alt="elevator">
+            <p>6. Elevator access</p>
+          </div>
+          <div class="slide"
+          <img src="/houseimages/communitytheatre.jpg" alt="communitytheatre">
+          <p>7. Community Theatre – Free for all</p>
+        </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&lt;</button>
+        <button class="next" onclick="nextSlide()">&gt;</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="example@gmail.com" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Contact Details</h2>
+    <p>Phone: <a href="tel:+254123456">+254 123 456</a></p>
+    <p>Email: <a href="mailto:haven@gmail.com">haven@gmail.com</a></p>
+    <p>
+      Follow us on
+      <a href="https://facebook.com">Facebook</a> |
+      <a href="https://instagram.com">Instagram</a>
+    </p>
+  </footer>
+
+  <script>
+    let i = 0;
+    const slides = document.querySelectorAll('.slide');
+    function show(n) {
+      i = (n + slides.length) % slides.length;
+      document.querySelector('.slider').style.transform = `translateX(-${i * 100}%)`;
+    }
+    function nextSlide() { show(i + 1); }
+    function prevSlide() { show(i - 1); }
+    setInterval(() => nextSlide(), 5000);
+  </script>
+</body>
+</html>
